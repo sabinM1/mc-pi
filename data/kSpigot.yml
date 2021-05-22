@@ -1,0 +1,6 @@
+knockback:
+  x: 0.97
+  y: 0.93
+  z: 0.97
+doLeafDecay: true
+mobAi: true

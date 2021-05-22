@@ -1,0 +1,22 @@
+version: "3.8"
+
+services:
+  minecraft-server:
+    image: "itzg/minecraft-server:multiarch-latest"
+    container_name: "mc-pi"
+    ports:
+      - "25565:25565"
+    volumes:
+      - "~/mc/data:/data"
+    environment:
+      EULA: "true"
+      ENABLE_RCON: "true"
+      RCON_PASSWORD: "sabin"
+      RCON_PORT: 25575
+      TYPE: "CUSTOM"
+      CUSTOM_SERVER: "/data/kSpigot-v0.7.jar"
+      VERSION: "1.12.2"
+      MEMORY: "900m"
+    tty: true
+    stdin_open: true
+    restart: always
