@@ -30,8 +30,8 @@ The following plugins are installed and configured:
   - [TabTPS](https://www.spigotmc.org/resources/tabtps-1-8-8-1-16-show-tps-mspt-and-more-in-the-tab-menu.82528/) - nice plugin to quickly display server performance
   - [TCPShield](https://github.com/TCPShield/RealIP)* - proxy/DDOS protection, ideal for a low-performance server, such as the RPi
   - [ProtocolLib](https://www.spigotmc.org/resources/protocollib.1997/) - dependency of NCP and TCPShield
-
-_*_TCPShield is disabled by default to avoid server connection confusion; set `only-allow-proxy-connections` to *true* if you use it, remove the plugin if it isn't needed.
+ 
+<spam>*</spam>TCPShield is disabled by default to avoid server connection confusion; set `only-allow-proxy-connections` to *true* if you use it, remove the plugin if it isn't needed.
 
 ## License
 
