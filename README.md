@@ -26,8 +26,8 @@ In the `KSpigot.yml` file the *mobAi* is set to false to reactivate the AI of th
 
 The following plugins are installed and configured:
   - [ViaVersion](https://www.spigotmc.org/resources/viaversion.19254/) - to support versions up to 1.16.5
-  - [AntiCheatReloaded](https://www.spigotmc.org/resources/anticheatreloaded.23799/) - general-purpose anticheat with almost no false positives
-  - [ProtocolLib](https://www.spigotmc.org/resources/protocollib.1997/) - dependency of ACR
+  - [Updated-NoCheatPlus](https://github.com/Updated-NoCheatPlus/NoCheatPlus) - general-purpose anticheat with almost no false positives
+  - [ProtocolLib](https://www.spigotmc.org/resources/protocollib.1997/) - dependency of NCP
 
 ## License
 
@@ -35,8 +35,10 @@ I am not the owner of the *kSpigot* PaperSpigot fork or of any files associated 
 
 The ViaVersion plugin is licensed under the [MIT License](https://github.com/ViaVersion/ViaVersion/blob/master/LICENSE).
 
-The AntiCheatReloaded plugin is licensed under the [LGPL-3.0 License](https://github.com/Rammelkast/AntiCheatReloaded/blob/master/LICENSE).
+The Updated-NoCheatPlus plugin is licensed under the [GPL-3.0 License](https://github.com/Updated-NoCheatPlus/NoCheatPlus/LICENSE.txt).
 
 The ProtocolLib plugin is licensed under the [GPL-2.0 License](https://github.com/dmulloy2/ProtocolLib/blob/master/License.txt).
+
+**Note: The source code of these plugins is not included, only the precompiled JARs.**
 
 Any other files are licensed under the MIT License. You should have a copy along with this file.
